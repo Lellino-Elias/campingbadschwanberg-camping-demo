@@ -78,9 +78,9 @@ const campingbadschwanberg: CampsiteConfig = {
         image: { src: `${IMG}/award-f0a913ccb5.png`, alt: "Lageplan des Campingplatzes Bad Schwanberg mit 24 Stellplätzen" },
       },
       {
-        title: "Mitten im Schilcherland",
-        text: "Der Platz liegt am Ortsrand von Bad Schwanberg, eingebettet zwischen Weinbergen und den sanften Hügeln der Weststeiermark.",
-        image: { src: `${IMG}/gallery-401fdbd176.webp`, alt: "Camping Bad Schwanberg im Schilcherland aus der Vogelperspektive" },
+        title: "Entsorgung & Service inklusive",
+        text: "Moderne Entsorgungsstation für Grauwasser und Kassetten direkt am Platz — alles, was du für einen vollständigen Campingaufenthalt brauchst, ist vorhanden.",
+        image: { src: `${IMG}/award-9321fc4872.png`, alt: "Entsorgungsstation und Servicebereich am Campingplatz Bad Schwanberg" },
       },
     ],
   },
