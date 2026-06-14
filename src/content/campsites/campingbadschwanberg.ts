@@ -38,7 +38,7 @@ const campingbadschwanberg: CampsiteConfig = {
     {
       title: "Freibad gleich nebenan",
       text: "Das Freibad Bad Schwanberg mit Badesee, Rutsche und Liegewiese liegt direkt neben dem Platz — im Sommer ein paar Schritte ins kühle Nass.",
-      image: { src: `${IMG}/award-9edbd1e6b1.png`, alt: "Freibad Bad Schwanberg mit Badesee direkt neben dem Campingplatz" },
+      image: { src: `${IMG}/amenity-65b03f9e44.webp`, alt: "Freibad Bad Schwanberg mit Badesee und Wasserrutsche direkt neben dem Campingplatz" },
     },
   ],
 
@@ -75,7 +75,7 @@ const campingbadschwanberg: CampsiteConfig = {
       {
         title: "Sanitär rund um die Uhr",
         text: "Duschen, WC und Waschbecken im modernen Sanitärgebäude sind 24/7 zugänglich — mit kurzen Wegen von jedem Stellplatz.",
-        image: { src: `${IMG}/award-598c449a98.png`, alt: "Eingang zum Sanitärgebäude am Campingplatz Bad Schwanberg" },
+        image: { src: `${IMG}/amenity-653788df3f.webp`, alt: "Modernes Waschraum mit Waschbecken im Sanitärgebäude am Campingplatz Bad Schwanberg" },
       },
       {
         title: "Freie Platzwahl",
@@ -85,14 +85,19 @@ const campingbadschwanberg: CampsiteConfig = {
     ],
   },
 
-  // Zu wenige echte, ungenutzte Fotos für eine ehrliche 4er-Galerie → images leer,
-  // die Galerie-Sektion blendet sich sauber aus (Komponente: <4 Bilder = null).
   galerie: {
     heading: "Eindrücke aus Bad Schwanberg",
     headingEmphasis: "Bad Schwanberg",
     intro: "Ein paar Eindrücke vom Platz und seiner Umgebung im Schilcherland.",
     tag: "Weststeiermark",
-    images: [],
+    images: [
+      { src: `${IMG}/gallery-401fdbd176.webp`, alt: "Luftaufnahme des Sanitärgebäudes am Campingplatz Bad Schwanberg" },
+      { src: `${IMG}/amenity-5903241f46.webp`, alt: "Luftaufnahme von Freibad und Sportplatz neben dem Campingplatz Bad Schwanberg" },
+      { src: `${IMG}/amenity-a403fdd392.webp`, alt: "Kirche und Ortskern von Bad Schwanberg im Schilcherland" },
+      { src: `${IMG}/amenity-895f09dc9d.webp`, alt: "Hauptplatz im Ortskern von Bad Schwanberg" },
+      { src: `${IMG}/amenity-002a643eee.webp`, alt: "Barrierefreies WC und Dusche im Sanitärgebäude am Campingplatz Bad Schwanberg" },
+      { src: `${IMG}/amenity-af6876d13f.webp`, alt: "Moderne Dusche im Sanitärgebäude am Campingplatz Bad Schwanberg" },
+    ],
   },
 
   anreise: {
