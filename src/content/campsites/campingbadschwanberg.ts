@@ -37,7 +37,7 @@ const campingbadschwanberg: CampsiteConfig = {
     },
     {
       title: "Freibad gleich nebenan",
-      text: "Das Freibad Bad Schwanberg mit Badesee, Rutsche und Liegewiese liegt direkt neben dem Platz — im Sommer ein paar Schritte ins kühle Nass.",
+      text: "Das Freibad mit Badesee, Rutsche und Liegewiese liegt direkt neben dem Platz — im Sommer ein paar Schritte.",
       image: { src: `${IMG}/amenity-65b03f9e44.webp`, alt: "Freibad Bad Schwanberg mit Badesee und Wasserrutsche direkt neben dem Campingplatz" },
     },
   ],
@@ -69,7 +69,7 @@ const campingbadschwanberg: CampsiteConfig = {
     features: [
       {
         title: "Entsorgung & Service inklusive",
-        text: "Moderne Entsorgungsstation für Grauwasser und Kassetten direkt am Platz — alles, was du für einen vollständigen Campingaufenthalt brauchst, ist vorhanden.",
+        text: "Moderne Entsorgungsstation für Grauwasser und Kassetten direkt am Platz — alles für einen vollständigen Campingaufenthalt.",
         image: { src: `${IMG}/award-9321fc4872.png`, alt: "Entsorgungsstation und Servicebereich am Campingplatz Bad Schwanberg" },
       },
       {
