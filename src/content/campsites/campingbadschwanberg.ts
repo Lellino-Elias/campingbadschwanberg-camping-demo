@@ -68,6 +68,11 @@ const campingbadschwanberg: CampsiteConfig = {
     intro: "Ankommen, wann du willst, und alles Wichtige nah beieinander — vom Stromanschluss bis zum Sanitärgebäude.",
     features: [
       {
+        title: "Entsorgung & Service inklusive",
+        text: "Moderne Entsorgungsstation für Grauwasser und Kassetten direkt am Platz — alles, was du für einen vollständigen Campingaufenthalt brauchst, ist vorhanden.",
+        image: { src: `${IMG}/award-9321fc4872.png`, alt: "Entsorgungsstation und Servicebereich am Campingplatz Bad Schwanberg" },
+      },
+      {
         title: "Sanitär rund um die Uhr",
         text: "Duschen, WC und Waschbecken im modernen Sanitärgebäude sind 24/7 zugänglich — mit kurzen Wegen von jedem Stellplatz.",
         image: { src: `${IMG}/award-598c449a98.png`, alt: "Eingang zum Sanitärgebäude am Campingplatz Bad Schwanberg" },
@@ -76,11 +81,6 @@ const campingbadschwanberg: CampsiteConfig = {
         title: "Freie Platzwahl",
         text: "24 nummerierte Stellplätze mit Strom, Wasser und WLAN — beim Online-Buchen suchst du dir deinen Platz selbst aus.",
         image: { src: `${IMG}/award-f0a913ccb5.png`, alt: "Lageplan des Campingplatzes Bad Schwanberg mit 24 Stellplätzen" },
-      },
-      {
-        title: "Entsorgung & Service inklusive",
-        text: "Moderne Entsorgungsstation für Grauwasser und Kassetten direkt am Platz — alles, was du für einen vollständigen Campingaufenthalt brauchst, ist vorhanden.",
-        image: { src: `${IMG}/award-9321fc4872.png`, alt: "Entsorgungsstation und Servicebereich am Campingplatz Bad Schwanberg" },
       },
     ],
   },
