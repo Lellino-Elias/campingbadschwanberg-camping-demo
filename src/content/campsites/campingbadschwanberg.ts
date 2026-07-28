@@ -54,7 +54,7 @@ const campingbadschwanberg: CampsiteConfig = {
     heading: "Klein, modern, mittendrin",
     headingEmphasis: "mittendrin",
     intro:
-      "Camping Bad Schwanberg ist ein überschaubarer, neu gebauter Platz in der Weststeiermark — 24 Stellplätze, digitaler Check-in rund um die Uhr und das Freibad direkt nebenan. Drumherum: Schilcher, Buschenschanken und Wanderwege.",
+      "Camping Bad Schwanberg ist ein überschaubarer, moderner Platz in der Weststeiermark — 24 Stellplätze, digitaler Check-in rund um die Uhr und das Freibad direkt nebenan. Drumherum: Schilcher, Buschenschanken und Wanderwege.",
   },
 
   awards: [],
@@ -77,11 +77,6 @@ const campingbadschwanberg: CampsiteConfig = {
         text: "Duschen, WC und Waschbecken im modernen Sanitärgebäude sind 24/7 zugänglich — mit kurzen Wegen von jedem Stellplatz.",
         image: { src: `${IMG}/award-598c449a98.png`, alt: "Eingang zum Sanitärgebäude am Campingplatz Bad Schwanberg" },
       },
-      {
-        title: "Freie Platzwahl",
-        text: "24 nummerierte Stellplätze mit Strom, Wasser und WLAN — beim Online-Buchen suchst du dir deinen Platz selbst aus.",
-        image: { src: `${IMG}/award-f0a913ccb5.png`, alt: "Lageplan des Campingplatzes Bad Schwanberg mit 24 Stellplätzen" },
-      },
     ],
   },
 
@@ -98,7 +93,7 @@ const campingbadschwanberg: CampsiteConfig = {
     modes: [
       {
         title: "Mit dem Auto",
-        text: "Über die A2 Süd Autobahn bist du in rund 20 Minuten am Platz — die letzten Kilometer sind beschildert. Adresse fürs Navi: Forst 20, 8541 Bad Schwanberg.",
+        text: "Über die A2 Süd Autobahn bist du in rund 20 Minuten am Platz — die letzten Kilometer sind beschildert. Adresse fürs Navi: Camping Bad Schwanberg, 8541 Bad Schwanberg.",
       },
       {
         title: "Mit der Bahn",
@@ -124,7 +119,6 @@ const campingbadschwanberg: CampsiteConfig = {
     },
     categories: [
       { id: "stellplatz", label: "Stellplatz", perNight: 32, perExtraGuest: 7 },
-      { id: "zelt", label: "Zeltplatz", perNight: 26, perExtraGuest: 7 },
     ],
   },
 
@@ -133,7 +127,7 @@ const campingbadschwanberg: CampsiteConfig = {
     tel: "+43 664 8392811",
     telHref: "tel:+436648392811",
     mail: "office@campingbadschwanberg.at",
-    adresse: "Forst 20 · 8541 Bad Schwanberg · Weststeiermark",
+    adresse: "8541 Bad Schwanberg · Weststeiermark",
   },
 
   languages: ["DE"],
